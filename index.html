@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> COVID-19 tracker by Opemipo Disu</title>
+<!--by Opemipo Disu-->
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; " />
+	<meta name="description" content="coronaija" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="dev.css">
+	
+<body>
+	<style type="text/css">
+	body{
+			background-image:url("icons/photo-1583324113626-70df0f4deaab.jpg");
+		}
+		</style>
+
+	<section>
+	<center>
+		<ul>
+		
+			<li>
+				<center>COVID-19 tracker by Opemipo Disu</center>
+			</li>
+			<li>
+				
+			</li>
+		</ul></center>
+	</section>
+	</div></div>
+	
+	<!--main focus-->
+<main>
+		<div class="row">
+			<!--large col-->
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<!--cases card-->
+				<div class="card" id="cover">
+					<center>
+						<img src="icons/horn.png" alt="public anouncement" width="45px">
+					</center>
+					<p class="enl" style="margin:auto;font-size:15px; font-family:cursive">
+						To stop the spread of covid-19
+						<br>
+						#StayHome #StaySafe
+						
+					</p>
+				</div>
+			</div>
+			</div>
+			<!--col-->
+		<br>
+	<!--last div-->
+	<div class="row">
+		<div class="col-6">
+			<!--patient card-->
+			<div class="card" id="cover">
+									
+									
+			<img src="icons/patient.png" width="60px" class="respix" alt="tested people">
+				<h6 class="patient">Number of tested people</h6>
+			</div>
+		</div>
+		<!--2nd col-->
+		<div class="col-6">
+			<div class="card" id="cover">
+
+						
+						<img src="icons/world (1).png" width="60px" alt="total case " class="respix">
+						<h6 class="total">Total cases</h6>
+			</div>
+		</div>
+		</div>
+			<br>
+		<!--2nd row-->
+		<div class="row">
+		<div class="col-6">
+		<!--cases card **-->
+			<div class="card">
+				
+				<img src="icons/shield.png" alt="recovered" width="60px" class="respix">
+									<!--recovered-->
+				<h6 class="rec">Recovered Patients</h6>
+		</div>
+		</div>
+		<!--2nd col-->
+		<div class="col-6">
+			<div class="card">
+					
+					<img src="icons/death.png" alt="death toll" width="60px" class="respix">
+					<!--death cases-->
+					<h6 class="death">Number of Deaths</h6>
+		
+		</div>
+		</div>
+	<!--last div-->
+	</div>
+	<!--main btn-->
+	<br>
+	<button class="btn btn-danger btn-block btn-lg">
+		<h5>States extended for Lockdown</h5>
+	</button>
+	<!--modal-->
+		<div class="card" id="state">
+			<h2 class="cancel">&times</h2>
+			<span class="lagos">
+				<center><p style="font-size:15px">Result for state with extended lockdown</p></center>
+				<hr>
+				<table cellpadding="15px 5px">
+					<tr>
+						<td>LAGOS</td>
+						<td class="lagCase"></td>
+						<td class="lagRec"></td>
+						<td class="lagDeath"></td>
+					</tr>
+					<!--ogun state -->
+					<tr>
+						
+					<td>OGUN</td>
+					<td class="ogCase"></td>
+					<td class="ogRec"></td>
+					<td class="ogDeath"></td>
+					</tr>
+					<!--fct-->
+					
+					<tr>
+					
+					<td>FCT</td>
+					<td id="abj"></td>
+					<td id="abjrec"></td>
+					<td id="abjdeath"></td>
+					</tr>
+				</table>
+					<center>
+	
+				</center>
+			</span>
+		</div>
+</main>
+	<script src="dev.js"></script>
+	<script src="sweetalert.min.js"></script>
+</body>
+</html>
